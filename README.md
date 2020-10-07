@@ -1,9 +1,16 @@
-For this project we chose a dataset from Lending Club approved personal loans between 2007 and 2011. The data can be found on www.lendingclub.com. The purpose of the analysis is to reduce defaults, improve profitability and help the company and investors determine interest rates. We will use machine learning models to analyze credit risk as a binary classification problem.
+This project is a partner project. 
 
-How to choose the Performance metrics? - well the model (whichever you pick) will be used to determine who should be approved for a loan and who shouldn’t, denying the loan to a client who will end up paying in full (false positives) represents a loss, but because interest is usually only a portion of principal the company will most likely be more comfortable not taking the chance when the risk is not to get reimbursed at all and lose the entire principal which represents a higher amount. Thus the main concern here is to avoid approving somebody who won't be able to repay or in other words avoid false negatives. This is achieved by a model with a high recall rate. 
-What would be the right performance metric- precision, recall, accuracy, F1 score, or something else?
+We chose a dataset from Lending Club (www.lendingclub.com). LendingClub is an American peer-to-peer lending company, headquartered in San Francisco, California.
 
-We also might need to evaluate TPR to make sure we are not declined too many qualified borrowers.
+The purpose of the project is to use machine learning models and insights from exploratory data analysis in order to help Lending CLub investors to decide whom to support with a loan. That is, the risk of losing money by supporting borrowers who will end up not paying back is to be minimized. The problem is treated as a binary classification problem (positive = borrower paying back, negative = borrower not paying back).
 
+Thus, the main convern is to avoid approving somebody who won't be able to repay. Therefore, the main performance metrics of our models are precision and recall scores as well as the F beta score combining both measures with a greater weight on precision (since it is particularly bad to classify a 'non-payer' as 'payer', i.e., false positive). 
 
-Make sure to check data imbalance. 
+Since the data is imbalanced with regard to target variable class frequencies, we pay much attention to handling this imbalance. Also, the data needed much preprocessing. 
+
+The project contains the following notebooks: 
+* tbd
+* tbd
+* tbd 
+
+Our best model is a ....
