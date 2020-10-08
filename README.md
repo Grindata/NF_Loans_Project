@@ -1,4 +1,4 @@
-This project is a partner project. 
+This project is a partner project of mluetje and PsychOpilio. 
 
 We chose a dataset from Lending Club (www.lendingclub.com), an American peer-to-peer lending company, headquartered in San Francisco, California.
 
