@@ -11,8 +11,8 @@ Since the data is imbalanced with regard to target variable class frequencies, w
 The project contains the following notebooks: 
 * [01 Data Cleansing](01_Data_Cleansing.ipynb)
 * [02 Exploratory Data Analysis](02_EDA.ipynb)
-* [03 Modelling]()
+* [03 Modelling](03_Modelling_Train_Data.ipynb)
 * [04 Model Evaluation](04_Model_Evaluation.ipynb)
 
-Our best models are a random forest classifier and , surprisingly, a logistic regression model. 
+Our best models are a random forest classifier and , surprisingly, a logistic regression model. In the latter, recall and accuracy scores were higher, so our final decision went for this model.
 
