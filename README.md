@@ -12,7 +12,7 @@ The project contains the following notebooks:
 * [01 Data Cleansing](01_Data_Cleansing.ipynb)
 * [02 Exploratory Data Analysis](02_EDA.ipynb)
 * [03 Modelling]()
-* [04 Model Evaluation]()
+* [04 Model Evaluation](04_Model_Evaluation.ipynb)
 
 Our best models are a random forest classifier and , surprisingly, a logistic regression model. 
 
